@@ -1,0 +1,46 @@
+@media screen and (max-width:960px) {
+    .artigo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text {
+        order: -1;
+    }
+    .img {
+        order: -2;
+        margin: auto;
+    }
+    .grande {
+        width: 0px;
+        height: 0px;
+    }
+    .medio {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .titulo {
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    aside {
+        flex: auto;
+    }
+    .grande,
+    .medio {
+        height: 0%;
+        width: 0%;
+    }
+    .mobile {
+        height: 100%;
+        width: 100%;
+    }
+}

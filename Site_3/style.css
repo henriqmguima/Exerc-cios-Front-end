@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 960px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    width: 100%;
+    background-color: #9AD9EA;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-bottom: 0%;
+    margin-left: 0%;
+    bottom: 0;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.menu {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.container {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+main {
+    padding-top: 0px;
+    margin-left: 0px;
+    padding: 15px 15px 15px 0px;
+    margin-top: 0px;
+}
+
+.artigo {
+    display: flex;
+}
+
+.cab {
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    margin-top: -15px;
+}
+
+.cab p {
+    color: black;
+    font-weight: bold;
+}
+
+.img {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.grande {
+    height: 600px;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.mobile,
+.medio {
+    height: 0;
+    width: 0;
+}
+
+.text {
+    width: 100%;
+    padding-right: 15px;
+    margin-left: 15px;
+    padding-top: 15px;
+    text-align: justify;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: black;
+}
+
+aside {
+    width: 250px;
+    margin-right: 0px;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.asid {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+button {
+    width: 80%;
+    height: 8vh;
+    background-color: #9AD9EA;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+button:hover {
+    transition: 0.4s;
+    background-color: #3d9ad3;
+}
+
+footer {
+    background-color: #9AD9EA;
+    height: 80px;
+}
+
+.rodape {
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.cdnfonts.com/css/gabriola');
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 960px;
+    background-color: #333333;
+    font-family: Verdana, Times, Serif;
+    font-size: 14px;
+}
+
+header {
+    height: 150px;
+    background-color: aquamarine;
+    width: 960px;
+    float: left;
+    margin-top: 5px;
+    background-image: url(imagens/fundo.jpg);
+    color: lightyellow;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 50px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.sub {
+    font-family: 'Gabriola';
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+header img {
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+#menu {
+    width: 960px;
+    height: 70px;
+    margin-top: 0 auto;
+    float: left;
+}
+
+#menu {
+    background-color: #333333;
+    height: 70px;
+    margin-top: 0 auto;
+}
+
+#menu nav ul {
+    list-style: none;
+    width: 960px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+#menu nav ul li {
+    margin-left: -42px;
+}
+
+#menu nav ul li a {
+    background-color: #063663;
+    text-align: center;
+    color: lightyellow;
+    padding-top: 10px;
+    height: 50px;
+    width: 150px;
+    float: left;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#menu nav ul li a:hover {
+    background-color: darkslategray;
+}
+
+main {
+    background-color: #ffffff;
+    width: 960px;
+    min-height: 800px;
+    max-height: 1600px;
+    float: left;
+}
+
+#principal {
+    width: 660px;
+    min-height: 700px;
+    max-width: 1400px;
+    float: left;
+    margin: 20px;
+}
+
+.subtit {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.container,
+.container2 {
+    display: flex;
+    width: 660px;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 330px;
+    border: 1px solid gray;
+    padding: 2px;
+    float: left;
+    height: 100%;
+}
+
+.foto p {
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.text1 {
+    width: 660px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-right: 20px;
+    min-width: none;
+    max-width: 660px;
+}
+
+#lateral {
+    width: 240px;
+    height: 700px;
+    float: left;
+}
+
+#lateral img {
+    margin: 20px;
+}
+
+#lateral p {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer {
+    background-color: #0f0d35;
+    height: 72px;
+    width: 960px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    display: flex;
+    float: left;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    width: 60%;
+    color: lightyellow;
+}

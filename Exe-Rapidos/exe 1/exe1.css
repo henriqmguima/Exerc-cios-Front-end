@@ -1,0 +1,53 @@
+body,
+p,
+.alt,
+.bax {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.wrapper {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#dir,
+#esq {
+    width: 150px;
+    padding: 0;
+    margin: 0 auto;
+    color: #000000;
+}
+
+#dir {
+    background-color: #00d9ff;
+}
+
+#esq {
+    background-color: #ff0000;
+}
+
+#container {
+    width: 450px;
+    color: #000000;
+}
+
+.header {
+    height: 100px;
+    background-color: #ffee00;
+    color: #000000;
+}
+
+.alt {
+    font-size: 150%;
+}
+
+#esq,
+#container,
+#dir {
+    float: left;
+}
+
+.bax {
+    margin-bottom: 20px;
+}

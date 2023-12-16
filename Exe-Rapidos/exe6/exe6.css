@@ -1,0 +1,151 @@
+body {
+    padding: 0 auto;
+    margin: 0;
+}
+
+.header {
+    background-color: #eb0606;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: 50px;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style-type: none;
+    padding-right: 14px;
+    display: flex;
+    margin-top: -16px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.menu ul li a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    opacity: 25%;
+}
+
+.menu {
+    background-color: #b40c0c;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+
+#colunas {
+    display: flex;
+    height: 407px;
+}
+
+.submenu,
+.col1,
+.col2,
+.col3 {
+    width: 25%;
+    text-align: center;
+    background-color: #f06f6f;
+    color: #ffffff;
+}
+
+.submenu {
+    border-style: dotted;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    background-color: #f7a7a7;
+}
+
+.submenu p {
+    margin-bottom: 1px;
+    color: #ffffff;
+    font-size: 150%;
+    text-align: center;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+.submenu ul li {
+    color: #ffffff;
+    margin-top: 25px;
+}
+
+.submenu ul li a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    color: #b40c0c;
+    padding: 5px;
+}
+
+.col1 {
+    border-style: dotted;
+    font-size: 150%;
+    border-left-width: 1px;
+    border-right-width: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.col2 {
+    border-style: dotted;
+    font-size: 150%;
+    border-right-width: 0;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.col3 {
+    font-size: 150%;
+    border-style: dotted;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+}
+
+.col3 img {
+    padding: 10px;
+    border: 1px solid;
+}
+
+#footer {
+    background-color: #eb0606;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    height: 50px;
+    color: #ffffff;
+}
+
+#footer p {
+    font-size: 150%;
+    font-weight: bolder;
+    margin-top: 7px;
+}

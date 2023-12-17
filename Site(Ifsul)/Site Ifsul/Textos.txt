@@ -1,0 +1,72 @@
+CABEÇALHO
+  IMAGEM: logo_ifsul.png
+
+FORM:
+  Intranet
+  login:
+  senha:
+
+MENU SUPERIOR
+  Acesso à informação
+  Dados Abertos
+  Consulta de Processos
+  Auditoria Interna
+  Comunicação
+  Ouvidoria
+  Fale Conosco
+  Contatos
+
+MENU LATERAL
+  Instituição
+  Ensino
+  Pesquisa
+  Extensão
+  Polos e campus
+  Espaço do estudante
+  Espaço do servidor
+
+NOTÍCIAS
+  IMAGEM: charqueadas.jpg
+  Passeio Ciclístico em comemoração ao aniversário do campus Charqueadas
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Bate-papo sobre vitamina D
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Problemas na central telefônica
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+DESTAQUES
+  IMAGEM: biblioteca.jpg
+  IMAGEM: suap.png
+  IMAGEM: moodle.jpg
+  IMAGEM: intranet.jpg
+  IMAGEM: mocitec.png
+  IMAGEM: publicacoes.jpg
+
+SERVIÇOS
+  Acessibilidade Brasil
+  SIGEPE
+  SERPRO
+  Periódicos
+  Portal da Transparência
+  Guia de recolhimento
+
+RODAPÉ
+  Avaliação da disciplina de Desenvolvimento Front-end I
+  IFSul - Campus Charqueadas

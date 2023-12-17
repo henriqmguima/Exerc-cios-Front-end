@@ -1,0 +1,229 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: grid;
+    color: #ffffff;
+    grid-template-areas: "header header login" "menusu menusu menusu" "aside main main" "aside container container" "footer footer footer";
+    grid-template-rows: 120px 6vh auto auto 15vh;
+    grid-template-columns: 2fr 6fr 2fr;
+    background-color: #f5f7f8;
+    margin: 30px;
+}
+
+h5 {
+    margin: 15px 0 10px 0;
+}
+
+header {
+    background-color: #195128;
+    grid-area: header;
+    margin: 0px 10px 10px 0px;
+}
+
+img {
+    margin: 15px 0px 0px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+#login {
+    margin-left: 2.5%;
+    margin-bottom: 3%;
+}
+
+input {
+    border-radius: 5px 5px 5px 5px;
+    width: 55%;
+}
+
+.login {
+    background-color: #195128;
+    grid-area: login;
+    margin-bottom: 10px;
+}
+
+.login h5 {
+    margin-left: 20px;
+}
+
+.menu {
+    background-color: #00420c;
+    grid-area: menusu;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+aside {
+    grid-area: aside;
+    margin: 0px 10px 10px 0px;
+    align-items: center;
+}
+
+aside nav ul {
+    margin-left: -2.0rem;
+    width: 95%;
+}
+
+aside nav ul li {
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px 0px 20px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside nav ul li a {
+    color: #195128;
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+    margin-bottom: 0px;
+    display: flex;
+    color: #195128;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.news {
+    grid-area: news;
+}
+
+.news img {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.noticias {
+    font-size: 25px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    padding-left: 20px;
+    border-top: 2px solid #195128;
+}
+
+#manchetes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#manchetes p {
+    margin-left: 10px;
+}
+
+.manch1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.manch2,
+.manch3 {
+    width: 48%;
+}
+
+.manch2 p,
+.manch3 p {
+    margin-right: 10px;
+}
+
+.manch1,
+.manch2,
+.manch3 {
+    border-bottom: 1px solid #ccc;
+}
+
+#container_flex {
+    display: flex;
+    grid-area: container;
+    margin-top: 10px;
+}
+
+.destaques {
+    grid-area: dest;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 15px 0px;
+    max-width: 100%;
+    width: 75%;
+}
+
+.imgs_dest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: row wrap;
+    margin-right: 15px;
+}
+
+.imgs_dest img {
+    height: 64.54px;
+    width: 210px;
+}
+
+.serv {
+    grid-area: serv;
+    margin-top: 10px;
+    width: 25%;
+}
+
+.list_serv {
+    list-style-type: none;
+}
+
+.list_serv li {
+    margin-bottom: 5px;
+}
+
+.list_serv li a {
+    text-decoration: none;
+    color: #195128;
+    font-size: 12px;
+}
+
+.destaques h1,
+.serv h1 {
+    padding-bottom: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.destaques h1 {
+    margin-bottom: 0px;
+}
+
+.titulo {
+    color: #195128;
+    background-color: #ccc;
+    border-top: 2px solid #195128;
+}
+
+footer {
+    background-color: #195128;
+    grid-area: footer;
+    text-align: center;
+    font-size: 12px;
+}

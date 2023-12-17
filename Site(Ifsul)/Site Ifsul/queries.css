@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px) {
+    body {
+        grid-template-columns: 3fr 4fr 3fr;
+        grid-template-rows: 20vh 15vh auto auto 15vh;
+    }
+    #container_flex {
+        flex-direction: column;
+    }
+    .serv {
+        width: 100%;
+    }
+    .dest {
+        width: 100%;
+    }
+    .destaques {
+        margin-right: 0px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-areas: "header header" "menusu menusu" "main main" "container container" "footer footer";
+        grid-template-columns: 12fr;
+        grid-template-rows: 20vh 15vh auto auto 15vh;
+    }
+    header {
+        margin-right: 0px;
+    }
+    .login {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    .manch2,
+    .manch3 {
+        width: 100%;
+    }
+    .destaques {
+        width: auto;
+    }
+    .serv {
+        display: none;
+    }
+}
